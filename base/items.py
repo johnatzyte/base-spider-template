@@ -19,5 +19,5 @@ class ProductItem:
 @attrs.define
 class ListItem:
     product_urls: list[str]
-    next_page_url: str | None = None
+    next_page_url: str
     url: str

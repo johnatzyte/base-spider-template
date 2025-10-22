@@ -21,5 +21,5 @@ class ProductsSpider(scrapy.Spider):
                 callback=self.parse_list
             )
     
-    async def parse_product(self, response, product:ProductItem):
+    async def parse_product(self, _, product:ProductItem):
         yield product
