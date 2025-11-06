@@ -5,7 +5,7 @@ from base.items import ProductItem, ListItem
 class ProductsSpider(scrapy.Spider):
     name = "products"
     # setup for my test e-commerce site
-    url: str = "URL"
+    url: str = "https://ooshn.com/"
 
     async def start(self):
         yield scrapy.Request(url=self.url, callback=self.parse_list)
