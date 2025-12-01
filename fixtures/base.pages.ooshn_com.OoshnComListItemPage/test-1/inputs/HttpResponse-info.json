@@ -1,0 +1,27 @@
+{
+  "_encoding": null,
+  "headers": [
+    [
+      "Content-Length",
+      "11382"
+    ],
+    [
+      "Alt-Svc",
+      "h3=\":443\"; ma=2592000"
+    ],
+    [
+      "Content-Type",
+      "text/html; charset=utf-8"
+    ],
+    [
+      "Date",
+      "Thu, 20 Nov 2025 19:00:59 GMT"
+    ],
+    [
+      "Via",
+      "1.1 Caddy"
+    ]
+  ],
+  "status": 200,
+  "url": "https://ooshn.com/"
+}
